@@ -2,12 +2,13 @@ Just a test bot for OpenAI translating tech pages
 
 Use the following in a Jupyter Notebook or Python env:
 
-#Install the necessary libs. Take out the ! if using dieectly into your terminal env
+#Install the necessary libs. Take out the ! if using directly into your terminal env
 
 !pip install requests beautifulsoup4 openai langchain-openai
 
 
 # Code to be put into .py file to test the extraction of text
+
 import requests
 from bs4 import BeautifulSoup
 
